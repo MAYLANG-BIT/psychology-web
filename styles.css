@@ -35,16 +35,26 @@ body {
     z-index: 100;
 }
 
+.sidebar-logo-img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto 15px auto;
+    display: block;
+    border-radius: 8px;
+}
+
 .logo {
     display: inline-block;
     font-size: 26px;
     font-weight: 800;
     letter-spacing: 1px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     line-height: 1.2;
     background: linear-gradient(135deg, #ff1493, #f5ba29);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .menus {
@@ -379,6 +389,9 @@ body {
         box-shadow: 0 4px 15px rgba(0,0,0,0.03);
         align-items: center;
         padding: 20px;
+    }
+    .sidebar-logo-img {
+        max-width: 100px;
     }
     .logo {
         margin-bottom: 20px;
